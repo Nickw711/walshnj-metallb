@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/walshnj-metal'         //do change this
         // Use Jenkins build number as part of the image tag
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/WTaylor8miami/lb-example-taylorw8.git'  //do change this
+        GITHUB_URL = 'https://github.com/Nickw711/walshnj-metallb.git'  //do change this
         
         KUBECONFIG = credentials('walshnj-225')  //do change this
     }
